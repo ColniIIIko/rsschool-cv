@@ -13,7 +13,7 @@ Student of the 1st course in the BSU, Minsk on march 2022.
 
 Started learning coding c++ in 10th form. Later it become interesting for me how does the web work.So I started learning html, css and js.
 
-Currently know basics of web, trying to improve my js skills. Want to find people who can share their experince as professional coder, and become a junior programmer in a year or two.
+Currently know basics of web, trying to improve my js skills. Want to find people who can share their experience as professional coder, and become a junior programmer in a year or two.
 
 ---
 
@@ -36,7 +36,7 @@ Transposition generator for my university's lab
 ```javascript
 let transpositionGen = function(arr)
 {
-    let retrunArr = [];
+    let returnArr = [];
     let tempArr = arr.slice();
 
     if(arr.length <= 2)
@@ -46,10 +46,10 @@ let transpositionGen = function(arr)
         tempArr[1] = temp;
 
         let reverse = tempArr.slice().reverse();
-        retrunArr.push(reverse);
-        retrunArr.push(tempArr);
+        returnArr.push(reverse);
+        returnArr.push(tempArr);
 
-        return retrunArr;
+        return returnArr;
     }else
     {
         for(let i = arr.length - 1; i>=0; i--)
@@ -61,14 +61,14 @@ let transpositionGen = function(arr)
             for(let trans of temp)
             {
                 trans.push(fixedElem);
-                retrunArr.push(trans);
+                returnArr.push(trans);
             }
             
             tempArr.splice(i,0,fixedElem);
         }
     }
 
-    return retrunArr;
+    return returnArr;
 }
 ```
 ---
@@ -83,7 +83,7 @@ Haven't had, but hope i will get one soon.
 
 * Rsschool (in progress)
 * IT-school "Step" (was learning C++ for 1 year)
-* University (currentle learning web)
+* University (currently learning web)
 
 ---
 
