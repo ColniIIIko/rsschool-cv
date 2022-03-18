@@ -29,7 +29,7 @@ Currently know basics of web, trying to improve my js skills. Want to find peopl
 
 ---
 
-### Code exmaple
+### Code example
 
 Transposition generator for my university's lab
 
