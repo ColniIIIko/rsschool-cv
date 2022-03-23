@@ -1,0 +1,8 @@
+
+
+.wrapper{
+    max-width: 908px;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
